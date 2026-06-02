@@ -1,0 +1,7 @@
+uvicorn server:app --host 127.0.0.1 --port 8000 --reload
+
+افتح نافذة ترمينال أخرى جديدة وشغل سيرفر الـ HTML (الـ Frontend) الخاص بك:
+python -m http.server 5000
+
+افتح المتصفح واذهب إلى رابط صفحة الويب:
+http://localhost:5000/
